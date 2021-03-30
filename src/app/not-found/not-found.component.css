@@ -1,0 +1,8 @@
+.light-btn{
+  color: black;
+  border-radius: 0;
+}
+
+.light-btn:hover{
+  background-color:azure;
+}
