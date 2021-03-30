@@ -1,27 +1,14 @@
-# TestApp
+# Recipes Application
+A simple application based on core features of Angular. Store and fetch recipes or use this application for any other simple data storage purposes.
+Register first or login to see the core application.
+Application is deployed on Amazon Elastic Beanstalk, link - http://recipes-storage.s3-website.us-east-2.amazonaws.com/
+Note - After creating a new recipe, don't forget to click save data from manage tab on top right corner. 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
+## Frontend (Angular)
+The frontend uses Bootstrap library for UI. For displaying simple component is created and designed with CSS.
 
-## Development server
+## Backend
+Backend is hosted by Firebase. 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Authentication
+Authentication is also managed by Firebase. Allowing user to register/login and retrieving their token so as to continue their login session even after reload.
