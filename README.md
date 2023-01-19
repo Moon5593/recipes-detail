@@ -1,7 +1,6 @@
 # Recipes Application
 A simple application based on core features of Angular. Store and fetch recipes or use this application for any other simple data storage purposes.
 Register first or login to see the core application.
-Application is deployed on Amazon Elastic Beanstalk, link - http://recipes-storage.s3-website.us-east-2.amazonaws.com/
 Note - After creating a new recipe, don't forget to click save data from manage tab on top right corner. 
 
 ## Frontend (Angular)
